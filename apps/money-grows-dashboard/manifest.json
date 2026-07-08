@@ -1,0 +1,25 @@
+{
+  "name": "Ezra's Money Grows Dashboard",
+  "short_name": "Money Dashboard",
+  "description": "A kid-friendly financial dashboard to track allowances, 529s, and savings goals. Build wealth habits early.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#001f3f",
+  "theme_color": "#ff8c00",
+  "orientation": "any",
+  "categories": ["finance", "education"],
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}

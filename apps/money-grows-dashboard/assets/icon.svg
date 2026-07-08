@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="80" fill="#001f3f"/>
+  <defs>
+    <linearGradient id="coinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700"/>
+      <stop offset="50%" style="stop-color:#FFC400"/>
+      <stop offset="100%" style="stop-color:#FFB300"/>
+    </linearGradient>
+    <linearGradient id="innerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFDB4D"/>
+      <stop offset="100%" style="stop-color:#E6A800"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="180" fill="url(#coinGrad)" stroke="#B8860B" stroke-width="8"/>
+  <circle cx="256" cy="256" r="150" fill="url(#innerGrad)"/>
+  <text x="256" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="200" font-weight="bold" fill="white" stroke="#E6A800" stroke-width="4">$</text>
+</svg>
