@@ -1030,6 +1030,64 @@
             }
         }
     </style>
+    <!-- JSON-LD Structured Data for AISEO & Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "FinancialService",
+          "@id": "https://www.taittfin.net/#organization",
+          "name": "Taitt Financial",
+          "url": "https://www.taittfin.net/",
+          "logo": "https://www.taittfin.net/assets/images/taitt-fin-logo.png",
+          "image": "https://www.taittfin.net/assets/images/hero-ezra-camera.jpg",
+          "description": "Behavioral-first financial counseling and planning. Financial therapy, tax prep, and estate document preparation in Florida.",
+          "telephone": "+1-813-485-5891",
+          "email": "admin@taittfin.net",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Tampa",
+            "addressRegion": "FL",
+            "addressCountry": "US"
+          },
+          "areaServed": "US",
+          "founder": {
+            "@id": "https://www.taittfin.net/#person"
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "name": "Financial Therapy"
+            },
+            {
+              "@type": "Offer",
+              "name": "Legacy Planning"
+            },
+            {
+              "@type": "Offer",
+              "name": "Growth Strategy"
+            }
+          ]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://www.taittfin.net/#person",
+          "name": "Jason Taitt",
+          "jobTitle": "Lead Financial Planner & Founder",
+          "honorificSuffix": "AFC®, CFT-I™",
+          "url": "https://www.taittfin.net/#about",
+          "sameAs": [
+            "https://www.linkedin.com/in/jtaitt/",
+            "https://jtaittw.substack.com/"
+          ],
+          "worksFor": {
+            "@id": "https://www.taittfin.net/#organization"
+          }
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body>
